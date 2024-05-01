@@ -1,0 +1,21 @@
+To finish configuring the project:
+
+1) open CMakeLists.txt and complete each TODO
+
+2) set up the debugging profile
+    cd into build-debug
+    Run `cmake ..` to generate build files
+    Run `make` or `cmake --build` from build-debug to build the project
+
+3) Create a symlink to compile_commands.json in project root
+    Run the following command in build-debug
+    `link compile_commands.json ../compile_commands.json`
+
+4) set up the release profile
+    cd into build-release
+    run `cmake -DCMAKE_BUILD_TYPE=Release ..` to generate build files
+    Run `make` or `cmake --build` from build-release to build the project
+
+5) remove .git folder and run `git init`
+
+6) Code!
