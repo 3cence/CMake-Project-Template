@@ -3,6 +3,7 @@ To finish configuring the project:
 1) open CMakeLists.txt and complete each TODO
 
 2) set up the debugging profile
+    mkdir build-debug
     cd into build-debug
     Run `cmake ..` to generate build files
     Run `make` or `cmake --build` from build-debug to build the project
@@ -12,10 +13,13 @@ To finish configuring the project:
     `link compile_commands.json ../compile_commands.json`
 
 4) set up the release profile
+    mkdir build-release
     cd into build-release
     run `cmake -DCMAKE_BUILD_TYPE=Release ..` to generate build files
     Run `make` or `cmake --build` from build-release to build the project
 
 5) remove .git folder and run `git init`
 
-6) Code!
+6) Update README.md
+
+7) Code!
