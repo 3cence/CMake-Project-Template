@@ -19,6 +19,7 @@ set(CMAKE_CXX_FLAGS_RELEASE "${CMAKE_CXX_FLAGS_RELEASE} -O3")
 
 # TODO: add_executable(${PROJECT_NAME} <source files>)
 
+# In order to find includes, use pkg-config --cflags and pkg-config --libs
 target_include_directories(${PROJECT_NAME} PRIVATE ./headers/)
 # target_link_libraries(${PROJECT_NAME} <library>)
 
